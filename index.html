@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <style>
+        header{
+            color: rgb(245, 245, 245);
+            text-align: center;
+        }
+
+        section{
+            background-color: rgba(255, 255, 255, 0.774);
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.555);
+            max-width: 450px; 
+            height: 240px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        select{
+            width: 175px;
+            padding: 3px;
+        }
+
+        .botao{
+            cursor: pointer;
+        }
+
+        body{
+            background-color: rgba(45, 59, 45, 0.589);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <div>
+            Número (entre 1 e 100): <input type="number" id="numUser">
+            <input type="button" value="Adicionar" class="botao" id="add">
+        </div>
+        <br>
+        <div>
+            <select name="num" id="resultado" size="8">
+                
+            </select>
+        </div>
+        <br>
+        <input type="button" value="Finalizar" class="botao" id="fim">
+    </section>
+
+    <script src="numeros.js"></script>
+</body>
+</html>
